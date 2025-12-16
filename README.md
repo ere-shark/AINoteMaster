@@ -40,7 +40,8 @@ AI NoteMaster는 사용자가 입력한 텍스트 또는 이미지(PDF/사진)�
 <img src="https://github.com/ere-shark/AINoteMaster/blob/master/%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC%20%ED%95%9C%EA%B8%80.png" width="150" height="300"/>
 
 텍스트 입력화면에서 분석하기 버튼을 누르면 AI가 분석해주고 결과화면에 요약문을 출력해줍니다.
-❓❓ 자동 문제 생성
+
+❓ 자동 문제 생성
 
 <img src="https://github.com/ere-shark/AINoteMaster/blob/master/%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC%20%ED%95%9C%EA%B8%80.png" width="150" height="300"/>
 
