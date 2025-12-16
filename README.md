@@ -33,7 +33,7 @@ AI NoteMaster는 사용자가 입력한 텍스트 또는 이미지(PDF/사진)�
 
 <img src="https://github.com/ere-shark/AINoteMaster/blob/master/%EC%82%AC%EC%A7%84%20%EA%B6%8C%ED%95%9C.png " width="150" height="300"/><img src="https://github.com/ere-shark/AINoteMaster/blob/master/%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%98%81%EC%96%B4.png" width="150" height="300]"/>
 
-사진과 PDF를 선택하면 OCR을 사용하여 영어를 텍스트 입력화면 텍스트 입력칸에 적어지며 분석하면 결과는 자동으로 한글로 출력됩니다.(사진과 PDF는 영어만 가능하며 사진을 선택할때는 권한을 허용해야합니다.)
+사진이나 PDF를 선택하면 OCR을 사용하여 영어를 텍스트 입력화면 텍스트 입력칸에 적어지며 분석하면 결과는 자동으로 한글로 출력됩니다.(사진과 PDF는 영어만 가능하며 사진을 선택할때는 권한을 허용해야합니다.)
 
 🧠 AI 기반 노트 요약
 
