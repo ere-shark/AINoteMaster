@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- 보조 버튼 색 -->
+    <solid android:color="#EEF2F7"/>
+
+    <!-- 둥글기 -->
+    <corners android:radius="16dp"/>
+
+</shape>

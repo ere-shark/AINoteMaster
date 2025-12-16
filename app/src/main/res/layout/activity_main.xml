@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp"
+        android:gravity="center_horizontal">
+
+        <!-- 상단 여백 -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <!-- 헤더 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✦"
+                android:textSize="34sp"
+                android:textColor="#111827"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AI NoteMaster"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:letterSpacing="0.02"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PDF · 사진 · 텍스트 → 요약 + 난이도별 문제 9개"
+                android:textSize="14sp"
+                android:textColor="#6B7280"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- 액션 카드 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp">
+
+            <!-- 메인 CTA: PDF -->
+            <Button
+                android:id="@+id/btnChoosePdf"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="📘  PDF 가져오기"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btn_primary_round"
+                android:stateListAnimator="@null"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <!-- 보조 버튼들 -->
+            <Button
+                android:id="@+id/btnChoosePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="🖼️  사진 불러오기"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:background="@drawable/btn_secondary_round"
+                android:stateListAnimator="@null"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <Button
+                android:id="@+id/btnEnterText"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="✏️  직접 텍스트 입력"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:background="@drawable/btn_secondary_round"
+                android:stateListAnimator="@null"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <Button
+                android:id="@+id/btnHistory"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="📚  기록 보기"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:background="@drawable/btn_secondary_round"
+                android:stateListAnimator="@null"/>
+
+        </LinearLayout>
+
+        <!-- TIP 카드 -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tip: 글자가 흐리면 OCR이 깨질 수 있어요. 가능하면 선명하게 촬영하거나 PDF 텍스트를 사용해요."
+                android:textSize="12sp"
+                android:textColor="#6B7280"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+    </LinearLayout>
+</ScrollView>
